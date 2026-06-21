@@ -55,7 +55,7 @@ Database
 
 Database Name: StudentProfilesDB
 
-Table Name: STUDENTPROFILESDB
+Table Name: PROFILE
 
 
   <img width="692" height="902" alt="image" src="https://github.com/user-attachments/assets/ce05f364-ecd7-4da1-bc03-65e512505865" />
