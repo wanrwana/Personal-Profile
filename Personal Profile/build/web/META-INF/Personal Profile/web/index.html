@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Profile System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+
+    <style>
+        body {
+            background-image: url('exo 3.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        .custom-card-blue {
+            background-color: rgba(255, 255, 255, 0.85) !important; 
+            border: 2px solid #b0e0e6 !important; /* Powder Blue Border */
+            box-shadow: 0 8px 32px rgba(176, 224, 230, 0.4) !important;
+            backdrop-filter: blur(5px);
+        }
+
+        .title-blue {
+            color: #008b8b !important; 
+        }
+
+        .label-blue {
+            color: #4682b4; 
+        }
+
+        .form-control:focus {
+            border-color: #00a8ec !important;
+            box-shadow: 0 0 0 0.25rem rgba(0, 168, 236, 0.25) !important;
+        }
+
+        .btn-blue-submit {
+            background-color: #00a8ec !important;
+            border-color: #00a8ec !important;
+            color: white !important;
+            transition: all 0.3s ease;
+        }
+        .btn-blue-submit:hover {
+            background-color: #0077b6 !important; 
+            transform: scale(1.02);
+        }
+
+        .link-blue {
+            color: #00a8ec !important;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .link-blue:hover {
+            color: #0077b6 !important;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="py-5">
+    <div class="container" style="max-width: 500px;">
+        <div class="card border-0 rounded-4 p-4 custom-card-blue">
+            
+            <h3 class="fw-bold text-center mb-4 title-blue">
+                May I Get Your Information? <i class="bi bi-heart-fill"></i> <i class="bi bi-emoji-smile-fill"></i>
+            </h3>
+            
+            <form action="ProfileServlet" method="POST">
+                <div class="mb-3">
+                    <label class="form-label fw-bold small label-blue">Student ID:</label>
+                    <input type="text" name="studentID" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label fw-bold small label-blue">Name:</label>
+                    <input type="text" name="name" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label fw-bold small label-blue">Programme:</label>
+                    <input type="text" name="programme" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label fw-bold small label-blue">Email:</label>
+                    <input type="email" name="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label fw-bold small label-blue">Hobbies:</label>
+                    <input type="text" name="hobbies" class="form-control" required>
+                </div>
+                <div class="mb-4">
+                    <label class="form-label fw-bold small label-blue">Short Self Introduction:</label>
+                    <textarea name="introduction" class="form-control" rows="4" required></textarea>
+                </div>
+                
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-blue-submit rounded-pill fw-bold shadow-sm">Save Profile</button>
+                </div>
+            </form>
+            
+            <div class="text-center mt-3">
+                <p><a href="ViewProfileServlet" class="link-blue btn-link btn-sm">💎 View All Profiles</a></p> 
+                <p><a href="SearchProfileServlet" class="link-blue btn-link btn-sm">💎 Search All Profiles</a></p>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
