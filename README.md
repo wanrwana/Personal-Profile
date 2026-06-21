@@ -56,4 +56,13 @@ Database
 Database Name: StudentProfilesDB
 
 Table Name: STUDENTPROFILESDB
-  
+
+
+  <img width="692" height="902" alt="image" src="https://github.com/user-attachments/assets/ce05f364-ecd7-4da1-bc03-65e512505865" />
+
+  <img width="1693" height="887" alt="image" src="https://github.com/user-attachments/assets/e5dcd419-62f6-45f8-be8e-bf5f1deead27" />
+
+  <img width="856" height="390" alt="image" src="https://github.com/user-attachments/assets/86b32c93-5aab-4c9d-b6a7-0a193f15bd93" />
+
+
+
