@@ -1,7 +1,9 @@
 # Personal-Profile
 Student Name : WAN NUR WANA QISTINA BT WAN HILMI
+
 Studen ID : 2024283816
-This project is about enchancing Personal Profile Web into Profile Management System by developing using a JavaBean Technologies. This system allow user to create,update,delete and search profile that has been recorded in database. MVC (Model-View_controller)concept followed by ProfileBean,JSP Pages and Servlet also has been developed in this system to organize code for a better maintability and reusability.
+
+This project focuses on enhancing the Personal Profile Web into a Profile Management System using JavaBean technology. The system allows users to create, update, delete, and search profile records stored in a database. The Model-View-Controller (MVC) architecture is implemented through the development of ProfileBean, JSP pages, and Servlets to ensure better code organization, maintainability, and reusability.
 
 List of Implemented Features:
 Create: Add new student profiles.
