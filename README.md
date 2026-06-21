@@ -23,20 +23,20 @@ ProfileBean.java
 
 View
 
-index.html
-search.jsp
-displayProfiles.jsp
-viewProfiles.jsp
-updateProfile.jsp
+-index.html
+-search.jsp
+-displayProfiles.jsp
+-viewProfiles.jsp
+-updateProfile.jsp
 
 Controller
 
-DeleteProfileServlet.java
-ProfileServlet.java
-ViewProfileServlet.java
-SearchProfileServlet.java
-UpdateProfileServlet.java
-EditProfileServlet.java
+-DeleteProfileServlet.java
+-ProfileServlet.java
+-ViewProfileServlet.java
+-SearchProfileServlet.java
+-UpdateProfileServlet.java
+-EditProfileServlet.java
 
 
 Database
